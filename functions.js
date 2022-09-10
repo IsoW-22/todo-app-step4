@@ -182,7 +182,7 @@ const createNewImportantTask = () => {
     const div = document.createElement("div");
     div.classList.add("todo-item");
     div.classList.add("important-item");
-    div.setAttribute("id",`item-${itemCount - 3}`);
+    div.setAttribute("id",`item-${itemCount - 1}`);
     main.insertBefore(div, create);
 
     const tickButton = document.createElement("Button");
